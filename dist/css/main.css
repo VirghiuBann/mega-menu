@@ -1,0 +1,63 @@
+.menu__main {
+  background-color: #FAFAFA;
+}
+
+.menu__main .first__menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 1px;
+}
+
+.menu__main .first__menu--item {
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+.menu__main ul a {
+  color: #1D1D1D;
+}
+
+.menu__main .nav-content {
+  display: block;
+  height: 64px;
+  min-height: 64px;
+  width: 100%;
+}
+
+.menu__main .second__menu {
+  line-height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__main .second__menu-item {
+  width: 50%;
+}
+
+.menu__main .brand-logo {
+  max-width: 250px;
+  height: 100%;
+}
+
+.menu__main .brand-logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.menu__main .search__content {
+  background-color: orange;
+  position: relative;
+}
+
+.menu__main .search__content .result {
+  position: absolute;
+  width: 100%;
+  color: #1D1D1D;
+  background-color: yellow;
+  z-index: 10;
+  border: 1px solid #1D1D1D;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=main.css.map */
